@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b2c8fe8-32d8-4fe9-9841-45acc0010272" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codility-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codility-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alwozniak/codility/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -47,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryGapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryGapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
@@ -113,19 +101,6 @@
               <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="codility-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codility" type="462c0819:PsiDirectoryNode" />
-              <item name="iterations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
@@ -316,9 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 29m 56s.xml">
-      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 30m 48s.xml">
       <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
     </history-entry>
@@ -346,6 +318,9 @@
     <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 37m 30s.xml">
       <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinaryGapTest - 2018.07.06 at 12h 38m 46s.xml">
+      <configuration name="BinaryGapTest" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2048" height="1156" extended-state="6" />
@@ -359,12 +334,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919848" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919848" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17089844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17089844" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,17 +364,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/Main.java">
+    <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,20 +391,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
