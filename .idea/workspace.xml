@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b2c8fe8-32d8-4fe9-9841-45acc0010272" name="Default" comment="" />
+    <list default="true" id="2b2c8fe8-32d8-4fe9-9841-45acc0010272" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codility-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codility-java.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -30,7 +35,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BinaryGap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#194#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryGapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,14 +83,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java" />
+        <option value="$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="324" />
-    <option name="y" value="32" />
+    <option name="y" value="4" />
     <option name="width" value="1400" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,12 +109,53 @@
               <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="codility-java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="iterations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alwozniak.codility.iterations" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,14 +169,138 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.Main" />
+  <component name="RunManager" selected="Android JUnit.BinaryGapTest">
+    <configuration name="BinaryGapTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
+    <configuration name="BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codility-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codility-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codility-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="METHOD_NAME" value="shouldWorkForANumberWithMaximalBinaryGap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinaryGapTest.shouldWorkForAnExampleGivenInDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codility-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="METHOD_NAME" value="shouldWorkForAnExampleGivenInDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BinaryGapTest.shouldWorkForAnExampleGivenInDescription" />
+      <item itemvalue="Android JUnit.BinaryGapTest" />
+      <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
+      <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
+      <item itemvalue="JUnit.BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.BinaryGapTest" />
+        <item itemvalue="JUnit.BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" />
+        <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
+        <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
+        <item itemvalue="JUnit.BinaryGapTest.shouldWorkForAnExampleGivenInDescription" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -104,29 +315,62 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 29m 56s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 30m 48s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 33m 28s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 33m 38s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 34m 08s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 34m 34s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 35m 08s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 35m 58s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 36m 37s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 37m 30s.xml">
+      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="324" y="32" width="1400" height="1056" extended-state="0" />
+    <frame x="0" y="-4" width="2048" height="1156" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919848" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17089844" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980915" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -138,6 +382,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/Main.java">
@@ -154,5 +403,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>codility-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
