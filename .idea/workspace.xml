@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b2c8fe8-32d8-4fe9-9841-45acc0010272" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/alwozniak/codility/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alwozniak/codility/arrays/CyclicRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/alwozniak/codility/arrays/CyclicRotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +17,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicRotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/arrays/CyclicRotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicRotationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/arrays/CyclicRotationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +99,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/alwozniak/codility/iterations/BinaryGap.java" />
         <option value="$PROJECT_DIR$/test/com/alwozniak/codility/iterations/BinaryGapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/alwozniak/codility/arrays/CyclicRotation.java" />
+        <option value="$PROJECT_DIR$/test/com/alwozniak/codility/arrays/CyclicRotationTest.java" />
       </list>
     </option>
   </component>
@@ -105,6 +133,19 @@
             <path>
               <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codility" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codility-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codility-java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -126,7 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alwozniak.codility.arrays" />
       <recent name="com.alwozniak.codility.iterations" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alwozniak.codility.arrays" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -144,19 +189,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.BinaryGapTest">
-    <configuration name="BinaryGapTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CyclicRotationTest">
+    <configuration name="CyclicRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="PATTERN" value="com.alwozniak.codility.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.arrays.CyclicRotationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -168,19 +213,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicRotationTest.shouldReturnEmptyArrayIfEmptyArrayGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="PATTERN" value="com.alwozniak.codility.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
-      <option name="METHOD_NAME" value="shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.arrays.CyclicRotationTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyArrayIfEmptyArrayGiven" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -191,19 +236,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicRotationTest.shouldReturnRotatedArrayIfKIsSmallerThanArraySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="PATTERN" value="com.alwozniak.codility.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
-      <option name="METHOD_NAME" value="shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.arrays.CyclicRotationTest" />
+      <option name="METHOD_NAME" value="shouldReturnRotatedArrayIfKIsSmallerThanArraySize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -214,19 +259,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicRotationTest.shouldReturnTheSameArrayIfNoRotationRequired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="PATTERN" value="com.alwozniak.codility.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
-      <option name="METHOD_NAME" value="shouldWorkForANumberWithMaximalBinaryGap" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.arrays.CyclicRotationTest" />
+      <option name="METHOD_NAME" value="shouldReturnTheSameArrayIfNoRotationRequired" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -237,19 +282,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BinaryGapTest.shouldWorkForAnExampleGivenInDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicRotationTest.shouldReturnUnmodifiedArrayIfKIsAMultipleOfArraySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codility-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alwozniak.codility.iterations.*" />
+          <option name="PATTERN" value="com.alwozniak.codility.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alwozniak.codility.iterations" />
-      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.iterations.BinaryGapTest" />
-      <option name="METHOD_NAME" value="shouldWorkForAnExampleGivenInDescription" />
+      <option name="PACKAGE_NAME" value="com.alwozniak.codility.arrays" />
+      <option name="MAIN_CLASS_NAME" value="com.alwozniak.codility.arrays.CyclicRotationTest" />
+      <option name="METHOD_NAME" value="shouldReturnUnmodifiedArrayIfKIsAMultipleOfArraySize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -261,19 +306,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BinaryGapTest.shouldWorkForAnExampleGivenInDescription" />
-      <item itemvalue="Android JUnit.BinaryGapTest" />
-      <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
-      <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
-      <item itemvalue="JUnit.BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" />
+      <item itemvalue="JUnit.CyclicRotationTest.shouldReturnEmptyArrayIfEmptyArrayGiven" />
+      <item itemvalue="JUnit.CyclicRotationTest.shouldReturnTheSameArrayIfNoRotationRequired" />
+      <item itemvalue="JUnit.CyclicRotationTest.shouldReturnRotatedArrayIfKIsSmallerThanArraySize" />
+      <item itemvalue="JUnit.CyclicRotationTest.shouldReturnUnmodifiedArrayIfKIsAMultipleOfArraySize" />
+      <item itemvalue="JUnit.CyclicRotationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.BinaryGapTest" />
-        <item itemvalue="JUnit.BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" />
-        <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberThatHasNoZerosInBinaryRepresentation" />
-        <item itemvalue="JUnit.BinaryGapTest.shouldReturnZeroForANumberWhoseRepresentationConsistsOfLeadingOnesAndTrailingZeros" />
-        <item itemvalue="JUnit.BinaryGapTest.shouldWorkForAnExampleGivenInDescription" />
+        <item itemvalue="JUnit.CyclicRotationTest" />
+        <item itemvalue="JUnit.CyclicRotationTest.shouldReturnUnmodifiedArrayIfKIsAMultipleOfArraySize" />
+        <item itemvalue="JUnit.CyclicRotationTest.shouldReturnRotatedArrayIfKIsSmallerThanArraySize" />
+        <item itemvalue="JUnit.CyclicRotationTest.shouldReturnTheSameArrayIfNoRotationRequired" />
+        <item itemvalue="JUnit.CyclicRotationTest.shouldReturnEmptyArrayIfEmptyArrayGiven" />
       </list>
     </recent_temporary>
   </component>
@@ -291,18 +336,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 30m 48s.xml">
-      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 33m 28s.xml">
-      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 33m 38s.xml">
-      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 34m 08s.xml">
-      <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryGapTest_shouldWorkForANumberWithMaximalBinaryGap - 2018.07.06 at 12h 34m 34s.xml">
       <configuration name="BinaryGapTest.shouldWorkForANumberWithMaximalBinaryGap" configurationId="JUnit" />
     </history-entry>
@@ -321,6 +354,18 @@
     <history-entry file="BinaryGapTest - 2018.07.06 at 12h 38m 46s.xml">
       <configuration name="BinaryGapTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="BinaryGapTest - 2018.07.06 at 14h 32m 07s.xml">
+      <configuration name="BinaryGapTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="CyclicRotationTest_shouldReturnEmptyArrayIfEmptyArrayGiven - 2018.07.06 at 14h 41m 24s.xml">
+      <configuration name="CyclicRotationTest.shouldReturnEmptyArrayIfEmptyArrayGiven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicRotationTest_shouldReturnTheSameArrayIfNoRotationRequired - 2018.07.06 at 14h 43m 03s.xml">
+      <configuration name="CyclicRotationTest.shouldReturnTheSameArrayIfNoRotationRequired" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CyclicRotationTest_shouldReturnRotatedArrayIfKIsSmallerThanArraySize - 2018.07.06 at 14h 46m 30s.xml">
+      <configuration name="CyclicRotationTest.shouldReturnRotatedArrayIfKIsSmallerThanArraySize" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2048" height="1156" extended-state="6" />
@@ -328,18 +373,18 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32919848" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919848" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17089844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17089844" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,7 +446,33 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alwozniak/codility/arrays/CyclicRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/alwozniak/codility/arrays/CyclicRotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
